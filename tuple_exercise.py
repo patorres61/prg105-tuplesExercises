@@ -1,5 +1,5 @@
 # Phyllis Torres
-# Tuple Exercise
+# Tuple Exercises
 # Due Date: October 20, 2016
 
 # define colors and bold text parameters
@@ -20,10 +20,11 @@ class color:
 # This program takes records from the assignment to create lists and tuples
 
 # print title of program and name
-print color.BOLD + '\nTuple Exercise\n' + color.END
+print color.BOLD + '\nTuple Exercises\n' + color.END
 print('Phyllis Torres\n')
 
-print('This program creates lists and tuples from records given in assignment. ')
+print('This program creates lists and tuples from records given in the assignment. ')
+print('Then, specific fields are selected to print from each record.')
 
 # create a tuple for each record given in the assignment
 
@@ -51,7 +52,7 @@ text_tbl = [text_hdr, text_t1, text_t2, text_t3]
 
 pub_tbl = [pub_hdr, pub_t1, pub_t2, pub_t3]
 
-print('\nPrint selected fields - Part Id, Price, and Quantity in Stock, from the Parts Database: \n')
+print('\nPrint the following fields - Part Id, Price, and Quantity in Stock, from the Parts Database: \n')
 
 # the following code loops through the parts table and creates a list of the desired fields
 # the index for the first record of the table must begin with zero
@@ -72,7 +73,7 @@ while index < len(parts_tbl):
     parts = []
 
 
-print('\nPrint selected fields - Textbook Name and price, from the Textbook Database: \n')
+print('\nPrint the following fields - Textbook Name and Price, from the Textbook Database: \n')
 
 # the following code loops through the textbook table and creates a list of the desired fields
 # the index for the first record of the table must begin with zero
@@ -91,7 +92,7 @@ while indx2 < len(text_tbl):
     # initialize the print list to an empty list
     texts = []
 
-print('\nPrint selected fields - Publisher Name and Phone Number, from the Publisher Database: \n')
+print('\nPrint the following fields - Publisher Name and Phone Number, from the Publisher Database: \n')
 
 # the following code loops through the publisher database and creates a list of the desired fields
 # the index for the first record of the table must begin with zero
